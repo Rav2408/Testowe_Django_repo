@@ -23,3 +23,5 @@ urlpatterns = [
     path('', views.hello_world_view, name='hello_world'),
     path('polls/', include('polls.urls')),
 ]
+
+#komentarz vol2 testoweeee
